@@ -26,10 +26,10 @@ const nav=()=>`<div class="top"><button class="pill" data-go="home">🏠 主页 
 const views={
 home:()=>`<main class="screen"><section class="card hero"><div class="mascot">🐼</div><div class="logo">Quest Hanyu AI</div>
 <p>华语学习冒险<br><span class="small">Huáyǔ Xuéxí Màoxiǎn</span><br>Pengembaraan Pembelajaran Bahasa Cina</p>
-<button class="btn red" data-go="profile">${tri("开始","kāishǐ","Mula")}</button>
-<button class="btn orange" data-go="map">${tri("继续","jìxù","Teruskan")}</button>
-<button class="btn green" data-go="passport">${tri("华语护照","Huáyǔ Hùzhào","Pasport Bahasa Cina")}</button>
-<button class="btn purple" data-go="teacher">${tri("教师专区","Jiàoshī Zhuānqū","Ruang Guru")}</button>
+<button class="btn red" data-go="profile">${tri("开始","  • kāishǐ","   • Mula")}</button>
+<button class="btn orange" data-go="map">${tri("继续","   • jìxù","   • Teruskan")}</button>
+<button class="btn green" data-go="passport">${tri("华语护照","   • Huáyǔ Hùzhào","   • Pasport Bahasa Cina")}</button>
+<button class="btn purple" data-go="teacher">${tri("教师专区","   • Jiàoshī Zhuānqū","   •Ruang Guru")}</button>
 <div class="notice">📱 Buka pautan melalui Safari dan pilih “Tambah ke Skrin Utama” untuk memasang aplikasi.</div></section></main>`,
 
 profile:()=>{const p=profile();return `<main class="screen">${nav()}<section class="card"><h1>学生资料<br><span class="small">Xuéshēng Zīliào · Profil Murid</span></h1>
