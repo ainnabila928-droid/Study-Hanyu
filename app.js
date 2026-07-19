@@ -14,8 +14,7 @@ const profile=()=>({
   crystals:+(localStorage.getItem("qh_crystals")||0),
   worlds:+(localStorage.getItem("qh_worlds")||0)
 });
-function tri(h,p,m){
-return `<span class="tri"><span class="hz">${h}</span><span class="py"> · ${p}</span><span class="ms"> · ${m}</span></span>`
+function tri(h,p,m){return `<span class="tri"><span class="hz">${h}</span><span class="py"> · ${p}</span><span class="ms"> · ${m}</span></span>`
 }
 function showToast(t){const x=el("toast");x.textContent=t;x.classList.add("show");setTimeout(()=>x.classList.remove("show"),1800)}
 function render(){const a=el("app");a.innerHTML=views[state.screen]();bind();}
