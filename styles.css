@@ -61,3 +61,10 @@ h1,h2{text-align:center}.small{font-size:14px;color:var(--muted)}.center{text-al
 .card{
   border-radius:32px;
 }
+.btn .hz,
+.btn .py,
+.btn .ms{
+  display:inline-block;
+  margin:0 3px;
+}
+
