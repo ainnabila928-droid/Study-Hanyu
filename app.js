@@ -130,3 +130,12 @@ function completeUnit(){
 }
 if("serviceWorker" in navigator)window.addEventListener("load",()=>navigator.serviceWorker.register("sw.js"));
 render();
+button {
+  letter-spacing: 1px;
+}
+
+.small {
+  line-height: 1.6;
+}
+
+
